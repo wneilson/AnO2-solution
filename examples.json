@@ -1,0 +1,69 @@
+{
+  "baseUrl": "https://raw.githubusercontent.com/wneilson/AnO2/main",
+  "title": "AnO2 lattice relaxation",
+  "descriptionFile": "description.md",
+  "examples": [
+      {
+          "id": "AnO2",
+          "title": "AnO2 lattice relaxation",
+          "description": "Geometry relaxtaion of lattice at given conditions.",
+          "analysisDescription": "# About this simulation\nWe search for geometry of lattice at given conditions.",
+          "imageUrl": "ano2_files/ano2atomify.png",
+          "inputScript": "EAM_equil_avg.lmpin",
+          "keywords": [
+              "lattice",
+              "cubic"
+              
+          ],
+          "files": [
+              {
+                  "fileName": "EAM_equil_avg.lmpin",
+                  "url": "ano2_files/EAM_equil_avg.lmpin"
+              },
+              {
+                  "fileName": "UO2-single_cell.lmpstruct",
+                  "url": "ano2_files/UO2-single_cell.lmpstruct"
+              },
+              {
+                  "fileName": "CeThUNpPuAmCmO.eam.alloy",
+                  "url": "ano2_files/CeThUNpPuAmCmO.eam.alloy"
+              },
+              {
+                "fileName": "2d-msd-diffusion.ipynb",
+                "url": "2d-msd-diffusion/2d-msd-diffusion.ipynb"
+            }
+          ]
+    },
+    {
+          "id": "AnO2_supercell",
+          "title": "AnO2 supercell",
+          "description": "Supercell enabling calculation of defect energies",
+          "analysisDescription": "# About this simulation\nWe search for geometry of lattice at given conditions.",
+          "imageUrl": "ano2_files/ano2atomify.png",
+          "inputScript": "EAM_defect.lmpin",
+          "keywords": [
+              "lattice",
+              "cubic"
+              
+          ],
+          "files": [
+              {
+                  "fileName": "EAM_defect.lmpin",
+                  "url": "ano2_files/EAM_defect.lmpin"
+              },
+              {
+                  "fileName": "UO2-single_cell.lmpstruct",
+                  "url": "ano2_files/UO2-single_cell.lmpstruct"
+              },
+              {
+                  "fileName": "CeThUNpPuAmCmO.eam.alloy",
+                  "url": "ano2_files/CeThUNpPuAmCmO.eam.alloy"
+              },
+              {
+                "fileName": "2d-msd-diffusion.ipynb",
+                "url": "2d-msd-diffusion/2d-msd-diffusion.ipynb"
+            }
+          ]
+    }
+  ]
+}
