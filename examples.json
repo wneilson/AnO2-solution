@@ -21,8 +21,39 @@
                   "url": "ano2_files/EAM_equil_avg.lmpin"
               },
               {
-                  "fileName": "UO2-single_cell.lmpstruct",
-                  "url": "ano2_files/UO2-single_cell.lmpstruct"
+                  "fileName": "AnO2-single_cell.lmpstruct",
+                  "url": "ano2_files/AnO2-single_cell.lmpstruct"
+              },
+              {
+                  "fileName": "CeThUNpPuAmCmO.eam.alloy",
+                  "url": "ano2_files/CeThUNpPuAmCmO.eam.alloy"
+              },
+              {
+                "fileName": "2d-msd-diffusion.ipynb",
+                "url": "2d-msd-diffusion/2d-msd-diffusion.ipynb"
+            }
+          ]
+    },
+    {
+          "id": "PuO2",
+          "title": "PuO2 lattice relaxation",
+          "description": "Geometry relaxtaion of lattice at given conditions.",
+          "analysisDescription": "# About this simulation\nWe search for geometry of lattice at given conditions.",
+          "imageUrl": "ano2_files/ano2atomify.png",
+          "inputScript": "EAM_equil_avg.lmpin",
+          "keywords": [
+              "lattice",
+              "cubic"
+              
+          ],
+          "files": [
+              {
+                  "fileName": "PuO2_EAM_equil_avg.lmpin",
+                  "url": "ano2_files/PuO2_EAM_equil_avg.lmpin"
+              },
+              {
+                  "fileName": "PuO2-single_cell.lmpstruct",
+                  "url": "PuO2_files/PuO2-single_cell.lmpstruct"
               },
               {
                   "fileName": "CeThUNpPuAmCmO.eam.alloy",
@@ -52,8 +83,8 @@
                   "url": "ano2_files/EAM_defect.lmpin"
               },
               {
-                  "fileName": "UO2-single_cell.lmpstruct",
-                  "url": "ano2_files/UO2-single_cell.lmpstruct"
+                  "fileName": "AnO2-single_cell.lmpstruct",
+                  "url": "ano2_files/AnO2-single_cell.lmpstruct"
               },
               {
                   "fileName": "CeThUNpPuAmCmO.eam.alloy",
