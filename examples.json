@@ -9,7 +9,7 @@
           "description": "Geometry relaxtaion of lattice at given conditions.",
           "analysisDescription": "# About this simulation\nWe search for geometry of lattice at given conditions.",
           "imageUrl": "ano2_files/ano2atomify.png",
-          "inputScript": "PuO2_EAM_equil_avg.lmpin",
+          "inputScript": "EAM_equil_avg.lmpin",
           "keywords": [
               "lattice",
               "cubic"
@@ -40,7 +40,7 @@
           "description": "Geometry relaxtaion of lattice at given conditions.",
           "analysisDescription": "# About this simulation\nWe search for geometry of lattice at given conditions.",
           "imageUrl": "ano2_files/ano2atomify.png",
-          "inputScript": "EAM_equil_avg.lmpin",
+          "inputScript": "PuO2_EAM_equil_avg.lmpin",
           "keywords": [
               "lattice",
               "cubic"
